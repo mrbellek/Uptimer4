@@ -1,0 +1,34 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+"http://www.w3.org/TR/REC-html40/loose.dtd">
+<HTML>
+<HEAD><TITLE>Uptimer4 webserver</TITLE>
+<META NAME="Author" CONTENT="Uptimer4">
+<META NAME="Generator" CONTENT="Uptimer4">
+<META NAME="MSSmartTagsPreventParsing" CONTENT="TRUE">
+<META HTTP-EQUIV="content-type" CONTENT="text/html; charset=ISO-8859-1">
+</HEAD>
+
+<BODY><FONT FACE="Fixedsys"><BR>
+
+<CENTER><TABLE BORDER=2 WIDTH=80% CELLPADDING=5>
+<TR><TH BGCOLOR=#FFFF80>Welcome to the Uptimer4 webserver!</TH>
+<TR><TD BGCOLOR=#FF8000><B>Server IP/name:</B> $SERVERIP1 - $SERVERNAME<BR>
+<B>Server date/time:</B> $DATELONG - $TIME</TD>
+
+<TR><TD BGCOLOR=#C0C0C0><CENTER><B>Server statistics</B></CENTER>
+<B>Uptimer4 version:</B> $SERVERVERSION<BR>
+<B>OS:</B> $OS<BR>
+<B>Pages served:</B> $PAGESSERVED,
+last one on $LASTSERVEDTIME ($LASTSERVEDDATESHORT)<BR>
+<B>Uptime:</B> $UPTIMELONG ($TICKS ms)<BR>
+<B>Booted on:</B> $SERVERBOOTDATELONG, $SERVERBOOTTIME<BR>
+<B>Free memory:</B> [RAM] $FREERAM, [pagefile] $FREEPAGEFILE<BR>
+<B>Disk free space:</B> $DISKFREESPACE on $DISKFREEDISK
+</TD>
+
+<TR><TD BGCOLOR=#DFDFDF><CENTER><B>Remote side</B></CENTER>
+<B>Client IP/name:</B> $CLIENTIP - $CLIENTNAME<BR>
+<B>Client HTTP request</B>: $CLIENTREQUEST</TD>
+</TABLE></CENTER>
+
+</FONT></BODY></HTML>

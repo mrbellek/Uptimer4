@@ -1,0 +1,28 @@
+11:14:03: OnActivate(1)			startup
+11:14:11: OnActivate(0)
+11:14:12: OnABNPosChanged()		changed taskbar
+11:14:13: OnABNPosChanged()		changed taskbar back
+11:14:20: OnActivate(2)			focus by clicking
+11:14:21: OnActivate(0)			unfocus
+11:14:32: OnABNFullScreenAp(True)	F11
+11:14:32: OnActivate(1)
+11:14:38: OnABNFullScreenAp(False)	F11
+11:14:42: OnActivate(0)
+11:14:45: OnActivate(1)
+11:14:47: OnActivate(0)
+
+
+11:16:58: OnActivate(1)			start
+11:17:05: OnActivate(0)
+11:17:12: OnABNPosChanged()		load atguard dashboard
+11:17:23: OnABNPosChanged()		unload atguard dashboard
+11:17:28: OnActivate(2)			focus
+11:17:30: OnActivate(0)			unfocus
+
+
+11:20:30: OnABNWindowArrange(True)	cascade windows
+11:20:30: OnABNWindowArrange(False)
+11:20:41: OnABNWindowArrange(True)	tile horizontally
+11:20:41: OnABNWindowArrange(False)
+11:20:47: OnActivate(2)
+11:20:48: OnActivate(0)
